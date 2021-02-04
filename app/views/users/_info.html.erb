@@ -8,6 +8,24 @@
 	  <th>introduction</th>
 	  <th><%= user.introduction %></th>
   </tr>
+  <tr>
+    <% user ||= current_user %>
+   <div class="stats">
+	  <th>follows</th>
+	  <th><a href="<%= users_show_follow_path(user) %>">
+    <strong id="following" class="stat">
+      <%= user.followings.count %>
+    </strong></th>
+   </tr>
+     <tr>
+	  <th>followers</th>
+	  <th><a href="<%= users_show_follower_path(user) %>">
+      <strong id="followers" class="stat">
+      <%= user.followers.count %>
+       </strong></th>
+     </div>
+  <tr>
+  </tr>
 </table>
 
 <div class='row'>
