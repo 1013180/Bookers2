@@ -1,24 +1,26 @@
-# README
+# Bookers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
 
-Things you may want to cover:
+<本の感想投稿サイト>
+読んだ本のタイトルと感想を投稿することができる。
 
-* Ruby version
 
-* System dependencies
+### ターゲットユーザ
 
-* Configuration
+<２０～８０代男性・女性>
+読書を趣味とする幅広い層
 
-* Database creation
+### 主な利用シーン
 
-* Database initialization
+・読書をしたとき
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## 開発環境
 
-* Deployment instructions
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JS ライブラリ：jQuery
+- IDE：Cloud9
 
-* ...
